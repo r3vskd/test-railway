@@ -1,0 +1,67 @@
+/*neural1*/
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  canvas{
+    background-color: #000;
+  }
+  
+  #nokey {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send it behind other elements */
+  }
+
+  /* login card style */
+
+      body {
+        display: flex;
+        }
+
+        .login-container {
+            background-color: #141414;
+            max-width: 600px;
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            padding: 40px;
+            position: fixed; 
+            margin-top: 800px;
+        }
+        
+        label {
+            margin-bottom: 5px;
+        }
+        
+        input {
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: #383838;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #1d1d1d;
+        }
+        
+        #error-message {
+            color: #ff0000;
+            margin-top: 10px;
+        }
+
+
+

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6xargs</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');</style>
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      #canvas-container {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1; /* Set the canvas behind other elements */
+      }
+  </style>
+
+        <style>  
+        html{
+          scrollbar-width: thin;
+          scrollbar-color: rgb(44, 44, 44) rgb(34, 34, 34) rgb(37, 37, 37);
+        }
+
+        body{
+          margin: 0;
+        }
+
+        ::-webkit-scrollbar {
+          width: 12px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #000000;
+          border-radius: 100vw;
+          margin-block: .5em;
+          margin-right: 10em;
+          border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #353535;
+          border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #1f1f1f;
+        } 
+
+        .dropdown{
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content{
+          display: none;
+          position: absolute;
+          text-decoration: none;
+          top: 100%;
+          left: 0;
+          border-radius: 5px;
+          /*box-shadow: 0 2px 5px rgba(20, 20, 20, 0.8);*/
+          padding: 10px;
+          backdrop-filter: blur(3px);
+          border: 0px solid rgba(0, 0, 0, 0.18);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(10px);
+          border-radius: 5px;
+          background: rgba(0, 0, 0, 0.7);
+        }
+
+        /*.dropdown-content a:hover{
+          backdrop-filter: blur(5px);
+          border: none;
+        }*/
+
+        .dropdown:hover .dropdown-content{
+          display: block;
+          padding: 10px;
+          backdrop-filter: blur(5px);
+        }
+        </style>
+        </head>
+
+        <body>
+          <!-- Your website content here -->
+          <!-- Canvas container -->
+          <div id="canvas-container">
+            <canvas id="nokey" width="800" height="800"></canvas>
+          </div>
+          <!-- JavaScript code -->
+          <script src="neural.js"></script>
+          <header id="main-header">
+            <a href="#" class="logo"></a>
+            <ul class="nav-links">
+              <a href="https://6xargs.com/" class="pic"><img src="images/1rm.png" alt="6xargs" width="120" height="30" class="pic"></a>
+              <li class="dropdown">
+                <a href="">For Business</a>
+                <div class="dropdown-content">
+                  <a href="run">Run Bug Bounty</a>
+                  <a href="crowdsourced">Crowdsourced Audits</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="">For Hackers</a>
+                <div class="dropdown-content">
+                  <a href="http://localhost:80/login.html">Start Hacking</a>
+                  <a href="http://localhost:80/leaderboard.html">Hackers Leaderboard</a>
+                  <a href="http://localhost:80/programs.html">Explore Bounties</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="nfts">NFTs</a>
+                <div class="dropdown-content">
+                  <a href="preview">Preview</a>
+                </div>
+              </li>
+              <li><a href="contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header=document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+
+    <main>
+      </main>
+      <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+
+      <div class="main-card">
+        <div class="main-card-content">
+          <h1 class="main-card-title">Welcome to 6xargs</h1>
+          <p class="main-card-text">World First 2.5 Bug Bounty platform for every0ne.</p>
+          <a href="#" class="main-card-btn">Get Started</a>
+        </div>
+      </div>
+
+      <br>
+      <div class="card-container">
+        <div class="card">          
+          <h3>Card 1 Title (Web3 Topic)</h3>
+          <p>Card 1 content about Web3...</p>
+        </div>
+      
+        <div class="card">
+          <h3>Card 1 Title (Web3 Topic)</h3>
+          <p>Card 1 content about Web3...</p>
+          </div>
+      
+        <div class="card">         
+          <h3>Card 1 Title (Web3 Topic)</h3>
+          <p>Card 1 content about Web3...</p>
+          </div>
+      </div>
+
+      
+      <section></section>
+    <script src="script.js"></script>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_inner">
+          <div class="c-footer">
+            <div class="layout">
+              <div class="layout w-25">
+                <div class="layout_item w-25">
+                  <h4 class="c-nav-tool_title">Social Media</h4>
+                  <ul class="c-nav-tool_list">
+                    <li class="c-nav-tool_item">
+                      <a href="twitter" class="c-link">Twitter</a>        
+                    </li>
+                    <li>
+                      <a href="discord" class="c-link">Discord</a>
+                    </li>
+                    <li class="c-nav-tool_item">
+                      <a href="github" class="c-link">Github</a>
+                    </li>
+                    <li class="c-nav-tool_item">
+                      <a href="youtube" class="c-link">Youtube</a>
+                    </li>
+                </div>
+              <div class="layout_item w-25">
+                <nav class="c-nav-tool">
+                  <h4 class="c-nav-tool_title">Menu</h4>
+                  <ul class="c-nav-tool_list">
+                    <li>
+                      <a href="/collections/all" class="c-link">Shop All</a>
+                    </li>
+                    <li>
+                      <a href="/pages/about-us" class="c-link">About Us</a>
+                    </li>
+                    <li>
+                      <a href="/blogs/community" class="c-link">Community</a>
+                    </li>
+                    <li>
+                      <a href="#" class="c-link">Vibes</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="layout_item w-25">
+                <nav class="c-nav-tool">
+                  <h4 class="c-nav-tool_title">Support</h4>
+                  <ul class="c-nav-tool_list">
+                    <li class="c-nav-tool_item">
+                      <a href="/pages/shipping-returns" class="c-link">Shipping &amp; Returns</a>
+                    </li>
+                    <li class="c-nav-tool_item">
+                      <a href="/pages/help" class="c-link">Help &amp; FAQ</a>
+                    </li>
+                    <li class="c-nav-tool_item">
+                      <a href="/pages/terms-conditions" class="c-link">Terms &amp; Conditions</a>
+                    </li>
+                    <li class="c-nav-tool_item">
+                      <a href="/pages/privacy-policy" class="c-link">Privacy Policy</a>
+                    </li>
+                    <li class="c-nav-tool_item">
+                      <a href="/pages/contact" class="c-link">Contact</a>
+                    </li>
+                    <li class="c-nav-tool_item">
+                      <a href="/account/login" class="c-link">Login</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_copyright">
+          <p>&copy; 2023 6xargs. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
